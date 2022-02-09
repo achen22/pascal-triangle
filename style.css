@@ -28,3 +28,15 @@ tbody {
 tr:hover {
   background-color: ghostwhite;
 }
+
+.divisible-by-2 {
+  color: blue;
+}
+
+.divisible-by-3 {
+  color: red;
+}
+
+.divisible-by-2.divisible-by-3 {
+  color: purple;
+}

@@ -29,7 +29,16 @@ function row_html(padding, row) {
 
 function cell_html(n) {
   let html = "<td colspan='2' class='";
-  // TODO: add classes based on value
+  let styles = []
+  if (n % 2 == 0) {
+    styles.push("divisible-by-2");
+  }
+  if (n % 3 == 0) {
+    styles.push("divisible-by-3");
+  }
+  if (styles.length) {
+    html += styles.join(" ");
+  }
   html += "'>" + n.toString() + "</td>";
   return html;
 }
