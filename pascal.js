@@ -38,6 +38,8 @@ function cell_html(n) {
   }
   if (styles.length) {
     html += styles.join(" ");
+  } else {
+    html += "digits-" + n.toString().length.toString();
   }
   html += "'>" + n.toString() + "</td>";
   return html;

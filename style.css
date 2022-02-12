@@ -40,3 +40,19 @@ tr:hover {
 .divisible-by-2.divisible-by-3 {
   color: purple;
 }
+
+.digits-1 {
+  color: darkgrey;
+}
+
+.digits-2 {
+  color: grey;
+}
+
+.digits-3 {
+  color: slategrey;
+}
+
+.digits-4 {
+  color: darkslategrey;
+}
